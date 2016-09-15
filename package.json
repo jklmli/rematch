@@ -2,7 +2,7 @@
   "name": "rematch",
   "version": "0.1.0",
   "description": "Pattern matching for JavaScript/TypeScript",
-  "main": "src/rematch.ts",
+  "main": "lib/rematch.js",
   "dependencies": {
     "lodash": "0.1.0 - 4",
     "monapt": "0.3.2 - 0.5"
