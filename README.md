@@ -3,6 +3,14 @@
 Rematch is a pattern matching library built for JavaScript and TypeScript.
 Pattern matching helps you write safer, more readable, and more concise code.
 
+## Try it now
+
+```bash
+npm install rematch
+```
+
+Or download a release and pick up `lib/rematch.js`.
+
 ## Basic usage
 
 ```javascript
