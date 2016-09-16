@@ -31,7 +31,7 @@ console.log([
 console.log(dangerLevel(Mutants.Batman)) // Error: Rematch.MatchError
 ```
 
-Play with [live on RunKit](https://runkit.com/jiaweihli/57db70d841de7f1400d64f73).
+Play with it [live on RunKit](https://runkit.com/jiaweihli/57db70d841de7f1400d64f73).
 
 ## API
 
