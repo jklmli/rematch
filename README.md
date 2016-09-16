@@ -14,20 +14,24 @@ Or download a release and pick up `lib/rematch.js`.
 ## Basic usage
 
 ```javascript
-function favoriteColor(favoritePlanet) {
-  return Rematch(favoritePlanet, [
-    Rematch.Type(GasGiantPlanet, () => 'blue'),
-    Rematch.Value('mars', () => 'red'),
-    Rematch.Value('venus', () => 'yellow')
+function dangerLevel(mutant) {
+  return Rematch(mutant, [
+    Rematch.Type(Villain, () => 5),
+    Rematch.Value(Mutants.Flash, () => 0),
+    Rematch.Value(Mutants.Superman, () => 2)
   ]);
-}
+};
 
->> favoriteColor('jupiter') // 'blue'
->> favoriteColor('neptune') // 'blue'
->> favoriteColor('venus') // 'yellow'
+console.log([
+    dangerLevel(Mutants.Flash), // 0
+    dangerLevel(Mutants.Superman), // 2
+    dangerLevel(Mutants.Joker) // 5
+])
 
->> favoriteColor('mercury') // Error: Rematch.MatchError
+console.log(dangerLevel(Mutants.Batman)) // Error: Rematch.MatchError
 ```
+
+Play with [live on RunKit](https://runkit.com/jiaweihli/57db70d841de7f1400d64f73).
 
 ## API
 
