@@ -1,6 +1,6 @@
 {
   "name": "rematch",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pattern matching for JavaScript/TypeScript",
   "main": "lib/rematch.js",
   "typings": "lib/rematch.d.ts",
