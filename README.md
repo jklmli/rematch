@@ -1,4 +1,4 @@
-# Rematch
+# Rematch [![npm version](https://badge.fury.io/js/rematch.svg)](http://badge.fury.io/js/rematch)
 
 Rematch is a pattern matching library built for JavaScript and TypeScript.
 Pattern matching helps you write safer, more readable, and more concise code.
