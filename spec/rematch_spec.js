@@ -1,4 +1,4 @@
-var Rematch = require('../lib/Rematch').default;
+var Rematch = require('../lib/rematch').default;
 
 const TrueClause = (key, action) => {
   return new Rematch.Case(

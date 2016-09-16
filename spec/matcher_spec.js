@@ -1,4 +1,4 @@
-var Rematch = require('../lib/Rematch').default;
+var Rematch = require('../lib/rematch').default;
 
 describe("Clauses", () => {
   it('should support a Value case', () => {
