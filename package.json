@@ -8,6 +8,7 @@
     "monapt": "0.3.2 - 0.5.x"
   },
   "devDependencies": {
+    "cracks": "^3.1.2",
     "cz-conventional-changelog": "1.2.x",
     "jasmine": "2.4.x",
     "semantic-release": "4.3.x",
@@ -44,5 +45,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "release": {
+    "verifyRelease": "cracks"
   }
 }
